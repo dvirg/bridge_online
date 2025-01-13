@@ -1,0 +1,182 @@
+[
+    {
+        "cards": "♠: A 9 7 6 5 2\n♥: J 9 5 4\n♦: A J 6\n♣: \n10 HCP",
+        "bids": "P 1NT P 2♣\nP 2♥ P 2♠\nP 3♥ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: K Q 9 6 5\n♥: A 9\n♦: A Q T 8 4\n♣: T\n15 HCP",
+        "bids": "1♠ P 2♣ P\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: T 8 3\n♥: Q 8 7 2\n♦: J 2\n♣: J 7 4 2\n4 HCP",
+        "bids": "1♣ P 1♥ DBL\n1♠ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A K T 8 5\n♥: 3\n♦: J 5 4\n♣: A J T 6\n13 HCP",
+        "bids": "1♣ 1♠ 2♣ 2♠\nP P 3♣ P\nP ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: 2\n♥: J 8 2\n♦: K Q 7 3 2\n♣: K 9 7 5\n9 HCP",
+        "bids": "1NT 2♠ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: Q 7\n♥: A Q 5 4 3\n♦: T 6 3\n♣: T 8 7\n8 HCP",
+        "bids": "1♦ P 1♥ P\n2♦ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: Q 7\n♥: A Q 5 4 3\n♦: T 6 3\n♣: T 8 7\n8 HCP",
+        "bids": "1♦ P 1♥ P\n2♦ P 2♥ P\n2NT P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: Q T 6 4 3 2\n♥: \n♦: A T 8 2\n♣: T 8 7\n6 HCP",
+        "bids": "1♥ P 1NT P\n2♣ 2♠ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A 9 4\n♥: T 9\n♦: J 7 5\n♣: A Q J 3 2\n12 HCP",
+        "bids": "1♦ 1♠ DBL RDBL\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A 9 4\n♥: T 9\n♦: J 7 5\n♣: A Q J 3 2\n12 HCP",
+        "bids": "1♦ 1♠ DBL RDBL\n2♦ P P DBL\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A 9 4\n♥: T 9\n♦: J 7 5\n♣: A Q J 3 2\n12 HCP",
+        "bids": "1♦ 1♠ DBL RDBL\n2♦ P P DBL\nP 2♠ 3♦ 3♠\nP 4♠ P P\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: Q 4\n♥: K Q 8 6\n♦: Q 8 5 2\n♣: T 5 4\n9 HCP",
+        "bids": "1NT 2♠ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A Q J T 5 4\n♥: A K T 5 4 3\n♦: \n♣: A\n18 HCP",
+        "bids": "1♣ P 1♦ P\n1♠ P 2♣ 3♦\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: Q J 8 3 2\n♥: 4\n♦: J 8 5\n♣: A J 4 3\n9 HCP",
+        "bids": "2♣ 2♠ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: Q J 8 7 6 5 3\n♥: Q T 9 4\n♦: \n♣: J 3\n6 HCP",
+        "bids": "P 2♠ P 3♣\nP ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A J 5\n♥: K Q 5\n♦: K J 2\n♣: A 9 8 6\n18 HCP",
+        "bids": "P P P 1♣\nP 1♦ P 1NT\nP 2♣ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A K Q\n♥: A 9 3 2\n♦: A 9 7 6 5\n♣: A\n21 HCP",
+        "bids": "P P 1♣ P\n2♣ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: 5 4 3\n♥: 5 4 Q\n♦: K Q J T 2\n♣: 7 6\n8 HCP",
+        "bids": "1♣ DBL ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A Q 9 2\n♥: A K 8 7 2\n♦: \n♣: A 7 6 5\n17 HCP",
+        "bids": "1♣ DBL 2♣ 3♦\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: K Q 7 4 3\n♥: T 5 3 2\n♦: K T 9\n♣: 9\n8 HCP",
+        "bids": "P 1NT P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A J 8 5\n♥: A 8 6\n♦: A 8 7\n♣: T 7 4\n13 HCP",
+        "bids": "P 1NT P 2♥\nP ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: T 9 8\n♥: Q\n♦: A T 2\n♣: K T 5 4 3 2\n9 HCP",
+        "bids": "P 1♥ P 1♠\nP 2♥ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: K 10 9 6 4 2\n♥: K 8 7 5 3\n♦: 4\n♣: 8\n6 HCP",
+        "bids": "P P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: A\n♥: A\n♦: A K Q\n♣: K Q J 9 5 4 3\n23 HCP",
+        "bids": "1♣ P 1♦ P\n?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: 8 6 4 2\n♥: \n♦: 8 6 4 3 2\n♣: 8 6 4 3\n0 HCP",
+        "bids": "1♣ P 1♦ P\n2♥ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: 8 7 6 5 4 2\n♥: \n♦: 8 6 4 3 2\n♣: 8 6\n0 HCP",
+        "bids": "1♣ P 1♦ P\n2♥ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: 7 5 4\n♥: 9 6 4 3\n♦: 9 6 3\n♣: 9 5 2\n0 HCP",
+        "bids": "1♣ P 1♦ P\n2♥ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: Q 8 3\n♥: Q 2\n♦: Q 9 6 4 3\n♣: Q 9 3\n8 HCP",
+        "bids": "1♣ P 1♦ P\n2♥ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: Q 8 3\n♥: Q 2\n♦: Q 9 3\n♣: Q 9 6 4 3\n8 HCP",
+        "bids": "1♣ P 1♦ P\n2♥ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: Q 8 3\n♥: Q 2\n♦: Q 9 3 2\n♣: Q 9 6 4\n8 HCP",
+        "bids": "1♣ P 1♦ P\n2♥ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: \n♥: 8 6 4 2\n♦: 8 6 4 3 2\n♣: 8 6 4 3\n0 HCP",
+        "bids": "1♣ P 1♦ P\n2♠ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: \n♥: 8 7 6 5 4 2\n♦: 8 6 4 3 2\n♣: 8 6\n0 HCP",
+        "bids": "1♣ P 1♦ P\n2♠ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: 8 6 4\n♥: 8 6 2\n♦: 4 3 2\n♣: 8 6 4 3\n0 HCP",
+        "bids": "1♣ P 1♦ P\n2♠ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: Q\n♥: Q 9 5 4\n♦: Q 9 5\n♣: 9 6 4 3 2\n6 HCP",
+        "bids": "1♣ P 1♦ P\n2♠ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: Q\n♥: Q 9 5 4\n♦: Q 9 5 3 2\n♣: 9 6 4\n6 HCP",
+        "bids": "1♣ P 1♦ P\n2♠ P ?",
+        "correctAnswer": "0 HCP"
+    },
+    {
+        "cards": "♠: Q\n♥: Q 9 5 4 3 2\n♦: Q 9 5\n♣: 9 6 4\n6 HCP",
+        "bids": "1♣ P 1♦ P\n2♠ P ?",
+        "correctAnswer": "3♥ 3♥: 5-8 HCP with hearts significantly better than clubs and diamonds, and no 3 spades (e.g., 6-3-3-1 distribution)."
+    }
+]

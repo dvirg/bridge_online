@@ -1,0 +1,482 @@
+[
+    {
+        "cards": "♠: 9 6 4 3\n♥: J 6 5 4\n♦: 9 5 3 2\n♣: 5\n1 HCP",
+        "bids": "1♣ P 1♦ P\n3♣ P ?",
+        "correctAnswer": "3NT 3NT: 0-4 HCP with a balanced hand and 0-2 cards in the bid suit."
+    },
+    {
+        "cards": "♠: 9 6 4\n♥: 9 6 4\n♦: J 6 4 2\n♣: 9 6 4\n1 HCP",
+        "bids": "1♣ P 1♦ P\n3♣ P ?",
+        "correctAnswer": "4♣ 4♣: 0-4 HCP with 3+ cards in the bid suit, showing support for the bid suit. Later we will expand that 4d is a question for K/A in suit, and the replay is the bid suit and that 4h is a question for what picture you have in clubs 4s=Q/K 4nt=A 5c=None."
+    },
+    {
+        "cards": "♠: K Q J 8 6 3\n♥: 8 6 3\n♦: 8 6 3\n♣: 8\n6 HCP",
+        "bids": "1♣ P 1♦ P\n3♣ P ?",
+        "correctAnswer": "3♠ 3♠: 5-8 HCP with spades significantly better than other suits, and no 3 clubs (e.g., 6-3-3-1 distribution)."
+    },
+    {
+        "cards": "♠: 9 6 4\n♥: K Q 9 6 3\n♦: 9 6 2\n♣: 9 6 3\n5 HCP",
+        "bids": "1♣ P 1♦ P\n3♣ P ?",
+        "correctAnswer": "3♥ New suit: 5-8 HCP with the intention to bid 4 of the repeated suit to show 3+ cards later or 3NT to show 2 or fewer cards in the bid suit."
+    },
+    {
+        "cards": "♠: 9 6 4 3\n♥: J 6 5 4\n♦: 5\n♣: 9 5 3 2\n1 HCP",
+        "bids": "1♣ P 1♦ P\n3♦ P ?",
+        "correctAnswer": "3NT 3NT: 0-4 HCP with a balanced hand and 0-2 cards in the bid suit."
+    },
+    {
+        "cards": "♠: 9 6 4\n♥: 9 6 4\n♦: J 6 4\n♣: 9 6 4 2\n1 HCP",
+        "bids": "1♣ P 1♦ P\n3♦ P ?",
+        "correctAnswer": "4♦ 4♦: 0-4 HCP with 3+ cards in the bid suit, showing support for the bid suit. Later we will expand that 4♥ is a question for K/A in suit, and the replay is the bid suit and that 4♠ is a question for what picture you have in clubs 4NT=Q/K 5c=A 5d=None"
+    },
+    {
+        "cards": "♠: K Q J 8 6 3\n♥: 8 6 3\n♦: 8 6 3\n♣: 8\n6 HCP",
+        "bids": "1♣ P 1♦ P\n3♦ P ?",
+        "correctAnswer": "3♠ 3♠: 5-8 HCP with the intention to bid 4 of the repeated suit to show 3+ cards later, dont bid this suit if you dont have 3+ diamonds."
+    },
+    {
+        "cards": "♠: 9 6 4\n♥: 9 6 4\n♦: J\n♣: K Q J 9 6 4\n7 HCP",
+        "bids": "1♣ P 1♦ P\n3♦ P ?",
+        "correctAnswer": "4♣ 4♣: 5-8 HCP with clubs significantly better than other suits, and no 3 Diamonds (e.g., 6-3-3-1 distribution)."
+    },
+    {
+        "cards": "♠: 9 6 4\n♥: K Q 9 6 3\n♦: 9 6 2\n♣: 9 6 3\n5 HCP",
+        "bids": "1♣ P 1♦ P\n3♦ P ?",
+        "correctAnswer": "3♥ New suit: 5-8 HCP with the intention to bid 4 of the repeated suit to show 3+ cards later or 3NT to show 2 or fewer cards in the bid suit."
+    },
+    {
+        "cards": "♠: A 8 4 2\n♥: K 9 6 3\n♦: 9 5 3\n♣: 5 3\n7 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P ?",
+        "correctAnswer": "4♦ 4♦: Interested in slam in hearts or spades."
+    },
+    {
+        "cards": "♠: K Q 6\n♥: A K Q 3\n♦: K Q 6 3\n♣: A Q 6 4\n25 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n?",
+        "correctAnswer": "4♥ 4♥: 4 hearts (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades)."
+    },
+    {
+        "cards": "♠: K Q 6 3\n♥: A K Q\n♦: K Q 6 3\n♣: A Q 6 4\n25 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n?",
+        "correctAnswer": "4♠ 4♠: 4 spades but no 4 hearts (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades)."
+    },
+    {
+        "cards": "♠: K Q 6\n♥: A K Q\n♦: A Q 6 3\n♣: A Q 6 4 3\n26 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n?",
+        "correctAnswer": "4NT 4NT: 0 or 3 aces (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades)."
+    },
+    {
+        "cards": "♠: A T 6\n♥: A K Q\n♦: A Q 6 3\n♣: A Q 6 4 3\n25 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n?",
+        "correctAnswer": "5♣ 5♣: 1 or 4 aces (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades)."
+    },
+    {
+        "cards": "♠: K T 6\n♥: A K Q\n♦: A Q 6 3\n♣: A Q 6 4 3\n24 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n?",
+        "correctAnswer": "5♦ 5♦: 2 aces and 2 kings (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades)."
+    },
+    {
+        "cards": "♠: K J 6\n♥: A K Q\n♦: A K J 3\n♣: Q J 6 4 3\n24 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n?",
+        "correctAnswer": "5♥ 5♥: 2 aces and 3 kings (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades)."
+    },
+    {
+        "cards": "♠: K T 6\n♥: A K Q\n♦: A K 6 3\n♣: K Q 4 3\n24 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n?",
+        "correctAnswer": "5♠ 5♠: 2 aces and 4 kings (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades)."
+    },
+    {
+        "cards": "♠: K Q 6\n♥: A K Q\n♦: A Q 6 3\n♣: A Q 6 4 3\n26 HCP",
+        "bids": "1♣ P 1♦ P\n3NT P 4♦ P\n4NT P 5♣ P\n?",
+        "correctAnswer": "5♠ If no answer for kings was given, the bid of one above is asking for kings (3NT: 24-26 HCP, balanced hand, no singleton, and no 5-card suit. 4♦: Interested in slam in hearts or spades. 4NT: 0 or 3 aces)."
+    },
+    {
+        "cards": "♠: A 9 5\n♥: J 9 7 4 3\n♦: Q 6 3 2\n♣: K\n10 HCP",
+        "bids": "1♣ P 1♥ P\n1NT P ?",
+        "correctAnswer": "3NT 3NT: 9-11 HCP, really balanced hand (could be 5-4-3-1)."
+    },
+    {
+        "cards": "♠: A 9 5\n♥: A 9 7 4 3\n♦: Q 6 3 2\n♣: K\n13 HCP",
+        "bids": "1♣ P 1♥ P\n1NT P ?",
+        "correctAnswer": "2NT 2NT: 12-14 HCP, really balanced hand (could be 5-4-3-1)."
+    },
+    {
+        "cards": "♠: K 4 2\n♥: A\n♦: J 9 6\n♣: A 9 8 5 4 3\n12 HCP",
+        "bids": "1♣ P 2♣ P\n2♦ P ?",
+        "correctAnswer": "2♥ 12-16 points, bid one above and then bid the singleton."
+    },
+    {
+        "cards": "♠: K 4 2\n♥: A\n♦: J 9 6\n♣: Q 9 8 5 4 3\n10 HCP",
+        "bids": "1♣ P 2♣ P\n2♦ P ?",
+        "correctAnswer": "3♥ 9-11 points, bid the singleton ignoring the bid right above."
+    },
+    {
+        "cards": "♠: K 4 2\n♥: A\n♦: A 9 8 5 4 3\n♣: J 9 6\n12 HCP",
+        "bids": "1♣ P 2♦ P\n2♥ P ?",
+        "correctAnswer": "2♠ 12-16 points, bid one above and then bid the singleton."
+    },
+    {
+        "cards": "♠: K 4 2\n♥: A\n♦: Q 9 8 5 4 3\n♣: J 9 6\n10 HCP",
+        "bids": "1♣ P 2♦ P\n2♥ P ?",
+        "correctAnswer": "3♥ 9-11 points, bid the singleton ignoring the bid right above."
+    },
+    {
+        "cards": "♠: K 6\n♥: K Q 7 4\n♦: Q J T 5 4\n♣: K 3\n14 HCP",
+        "bids": "P 1♦ P 2♦\nP ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: \n♥: A 9 5 3\n♦: K Q 9 6 3\n♣: K 9 4 3\n12 HCP",
+        "bids": "1♦ P 2♦ P\n?",
+        "correctAnswer": "2♠ 2♠: Indicates a void, expressing hope for a potential slam."
+    },
+    {
+        "cards": "♠: Q 9 4\n♥: Q 9 4\n♦: Q 9 4\n♣: Q 9 6 4\n8 HCP",
+        "bids": "1♦ P 2♦ P\n2♠ P ?",
+        "correctAnswer": "2NT 2NT: 8-10 points balanced hand."
+    },
+    {
+        "cards": "♠: A 9 4\n♥: K 9 4\n♦: Q 9 4\n♣: Q 9 6 4\n11 HCP",
+        "bids": "1♦ P 2♦ P\n2♠ P ?",
+        "correctAnswer": "3♣ 3♣: 11-12 points balanced hand."
+    },
+    {
+        "cards": "♠: \n♥: A 9 5 3\n♦: K Q 9 6 3\n♣: K 9 4 3\n12 HCP",
+        "bids": "1♦ P 2♦ P\n3♣ P ?",
+        "correctAnswer": "3♠ Partner describes his void. If he cannot because the answer was said by partner, he says 3NT, which is a question for aces ignoring the void suit."
+    },
+    {
+        "cards": "♠: \n♥: A 9 5 3\n♦: K Q 9 6 3\n♣: \n9 HCP",
+        "bids": "1♦ P 2♦ P\n3♣ P ?",
+        "correctAnswer": "3NT Partner describes his void. If he cannot because the answer was said by partner, he says 3NT, which is a question for aces ignoring the void suit."
+    },
+    {
+        "cards": "♠: A 9 4\n♥: K 9 4\n♦: Q 9 4\n♣: Q 9 6 4\n11 HCP",
+        "bids": "1♦ P 2♦ P\n2♠ P 3♣ P\n3NT P ?",
+        "correctAnswer": "4♦ Partner described his void in clubs by saying 3NT, which is a question for aces ignoring the void suit."
+    },
+    {
+        "cards": "♠: \n♥: K Q J 4\n♦: K 9 6 3\n♣: \n9 HCP",
+        "bids": "1♦ P ?",
+        "correctAnswer": "2♠ 2♠: Have a void in other suit and are interested in slam."
+    },
+    {
+        "cards": "♠: K Q 9 4\n♥: K 9 3\n♦: A Q 9 3\n♣: J 4\n15 HCP",
+        "bids": "1♦ P 2♠ P\n?",
+        "correctAnswer": "2NT 2NT: 15-16 points balanced hand."
+    },
+    {
+        "cards": "♠: K Q 9\n♥: J 9 3\n♦: A Q 9 5 3\n♣: J 4\n13 HCP",
+        "bids": "1♦ P 2♠ P\n?",
+        "correctAnswer": "3♣ 3♣: 12-14 points 5+ diamonds."
+    },
+    {
+        "cards": "♠: K Q 4\n♥: K 9 3\n♦: A Q 9 3 2\n♣: J 4\n15 HCP",
+        "bids": "1♦ P 2♠ P\n?",
+        "correctAnswer": "3♦: 15 16 points 5+ diamonds."
+    },
+    {
+        "cards": "♠: \n♥: K Q J 4\n♦: K 9 6 3\n♣: \n9 HCP",
+        "bids": "1♦ P 2♠ P\n3♦ P ?\n4♣: ♦E♠♣RIBE T♥E VOI♦. IF ♣ANNOT BE♣AU♠E T♥E AN♠WER WA♠ ♠AI♦ BY PARTNER, ♠AY 3NT, W♥I♣♥ I♠ A QUE♠TION FOR A♣E♠ IGNORING T♥E VOI♦ ♠UIT.",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: \n♥: K Q J 4\n♦: \n♣: K 9 6 3\n9 HCP",
+        "bids": "1♦ P 2♠ P\n3♦ P ?\n3NT: ♦E♠♣RIBE T♥E VOI♦. IF ♣ANNOT BE♣AU♠E T♥E AN♠WER WA♠ ♠AI♦ BY PARTNER, ♠AY 3NT, W♥I♣♥ I♠ A QUE♠TION FOR A♣E♠ IGNORING T♥E VOI♦ ♠UIT.",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A K T 9 6 3 2\n♥: K 6\n♦: K 9 4\n♣: 8\n13 HCP",
+        "bids": "1♠ P 2♦ P\n?",
+        "correctAnswer": "2♠ I would go with 2S it is lower, and gives partner a chance to say 3C and I could now say 3D. even if partner says 2NT, I would say 3D. because partner really wants to know about diamonds."
+    },
+    {
+        "cards": "♠: K 6 4\n♥: K 4\n♦: A Q\n♣: 8 7 6 4 3 2\n12 HCP",
+        "bids": "1♦ P ?",
+        "correctAnswer": "3NT 3NT: 13-14, or 12 with 5 clubs (or 6 bad clubs)."
+    },
+    {
+        "cards": "♠: K 7 4\n♥: K 4 2\n♦: A 9 4\n♣: A K 5 3\n17 HCP",
+        "bids": "1♦ P ?",
+        "correctAnswer": "2NT 2NT: 15-20 with 3-4 diamonds."
+    },
+    {
+        "cards": "♠: K 9 6 4\n♥: K 4 2\n♦: A 9\n♣: A K 5 3\n17 HCP",
+        "bids": "1♦ P ?",
+        "correctAnswer": "3♣: 15 18 with exactly 2 diamonds."
+    },
+    {
+        "cards": "♠: K 9 6 4\n♥: K 4 2\n♦: A 9\n♣: A J 5 3\n15 HCP",
+        "bids": "1♦ P 3♣ P\n3♦ P ?",
+        "correctAnswer": "3♥ 3♥: 15-16 with exactly 2 diamonds."
+    },
+    {
+        "cards": "♠: K 9 6 4\n♥: K 6 2\n♦: A 9\n♣: A K 5 3\n17 HCP",
+        "bids": "1♦ P 3♣ P\n3♦ P ?",
+        "correctAnswer": "3♠ 3♠: 17 with exactly 2 diamonds."
+    },
+    {
+        "cards": "♠: K 9 6 4\n♥: K 6 2\n♦: A J\n♣: A K 5 3\n18 HCP",
+        "bids": "1♦ P 3♣ P\n3♦ P ?",
+        "correctAnswer": "3NT 3NT: 18 with exactly 2 diamonds."
+    },
+    {
+        "cards": "♠: K 9 6 4\n♥: K 6 2\n♦: A K\n♣: A Q 5 3\n19 HCP",
+        "bids": "1♦ P ?",
+        "correctAnswer": "3♦ 3♦: 19-20 with exactly 2 cards without J or Q in diamonds."
+    },
+    {
+        "cards": "♠: K 9 6 4\n♥: K 6 2\n♦: A K\n♣: A Q 5 3\n19 HCP",
+        "bids": "1♦ P 3♦ P\n3♥ P ?",
+        "correctAnswer": "3♠ 3♠: 19 with exactly 2 cards without J or Q in diamonds."
+    },
+    {
+        "cards": "♠: K J 6 4\n♥: K 6 2\n♦: A K\n♣: A Q 5 3\n20 HCP",
+        "bids": "1♦ P 3♦ P\n3♥ P ?",
+        "correctAnswer": "3NT 3NT: 20 with exactly 2 cards without J or Q in diamonds."
+    },
+    {
+        "cards": "♠: A K 6 4\n♥: K 6 2\n♦: Q 6\n♣: A K 5 3\n19 HCP",
+        "bids": "1♦ P ?",
+        "correctAnswer": "3♥ 3♥: 19 with exactly 2 cards with Q or J in diamonds."
+    },
+    {
+        "cards": "♠: A K 6 4\n♥: K J 2\n♦: Q 6\n♣: A K 5 3\n20 HCP",
+        "bids": "1♦ P ?",
+        "correctAnswer": "3♠ 3♠: 20 with exactly 2 cards with Q or J in diamonds."
+    },
+    {
+        "cards": "♠: A K 5 4\n♥: 8 5\n♦: A J 8\n♣: A 8 5 3\n16 HCP",
+        "bids": "P P 1♦ P\n1NT P P 2♥\nP P ♦BL P\nP 2♠ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: K 6 3\n♥: Q T 9 7\n♦: K J 6 5\n♣: 9 4\n9 HCP",
+        "bids": "P P P 1♦\n♦BL P 1♥ 2♦\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: 7\n♥: A K 8 7 5 4\n♦: K Q 9 2\n♣: K 4\n15 HCP",
+        "bids": "P P P 1♥\nP P ♦BL P\n1NT P P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: T 8\n♥: A T 9 6 3 2\n♦: A 8 4 2\n♣: K\n11 HCP",
+        "bids": "2♥ P P 2♠\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A 6 2\n♥: Q\n♦: 8 7 4\n♣: Q T 9 7 4 2\n8 HCP",
+        "bids": "P 2♦ 2♥ 3♦\n4♥ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: T 3\n♥: Q 8\n♦: K J 8 6\n♣: Q J 7 4 2\n9 HCP",
+        "bids": "1♥ P 1♠ ♦BL\n1NT P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A\n♥: Q 8 5\n♦: K Q T 9 5 3\n♣: Q 8 6\n13 HCP",
+        "bids": "2♥ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A K Q 8 6 4\n♥: J 9 7 3\n♦: A 7\n♣: 3\n14 HCP",
+        "bids": "1♥ P 1NT ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A K J 8 6\n♥: T 5 4\n♦: 7 6\n♣: J T 9\n9 HCP",
+        "bids": "P 1♥ 2♠ 3♠\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: K 2\n♥: K T 9\n♦: Q T 9 8 7 2\n♣: 8 2\n8 HCP",
+        "bids": "P P 1♦ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A J 7 6 2\n♥: K\n♦: Q 9 5\n♣: A T 8 3\n14 HCP",
+        "bids": "2♦ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: K 4 2\n♥: 8 3 2\n♦: A 9 6\n♣: Q 8 5 2\n9 HCP",
+        "bids": "P P 1♥ P\n2♥ P 3♣ P\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: 8 5\n♥: T 9 3\n♦: 4 3\n♣: A Q J T 3 2\n7 HCP",
+        "bids": "1♥ P ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: 8 5\n♥: T 9 3\n♦: 4 3\n♣: A Q J T 3 2\n7 HCP",
+        "bids": "1♥ P P ♦BL\nP 1♠ 2♥ 2♠\n3♥ 3♠ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: \n♥: Q 3 2\n♦: A K T 8 6 4 2\n♣: A T 9\n13 HCP",
+        "bids": "1♥ P P ♦BL\nP 2♣ 2♥ ?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: A T 9 7\n♥: A K T 6 5 4\n♦: K 7\n♣: Q\n16 HCP",
+        "bids": "1♥ P P 2♦\n?",
+        "correctAnswer": "?"
+    },
+    {
+        "cards": "♠: K Q 8 3\n♥: K 5 3\n♦: K 7 4\n♣: K J 4\n15 HCP",
+        "bids": "1♦ P 1♥ P\n1NT P 2NT P\n?",
+        "correctAnswer": "PA♠♠ He invited me to 3NT game, but I am not 16 HCP or 15 with 5+."
+    },
+    {
+        "cards": "♠: A 9 5 3\n♥: K 9 5\n♦: K 8 4\n♣: K Q 9 5\n15 HCP",
+        "bids": "1♦ P 2NT P\n3♣ P ?",
+        "correctAnswer": "3♦ 3♦: 15-17 with 3-4 diamonds."
+    },
+    {
+        "cards": "♠: A 9 5 3\n♥: K 9 5\n♦: K 8 4\n♣: K Q 9 5\n15 HCP",
+        "bids": "1♦ P 2NT P\n3♣ P 3♦ P\n3♥ P ?",
+        "correctAnswer": "3♠ 3♠: 15-16 with 3-4 diamonds."
+    },
+    {
+        "cards": "♠: A 9 5 3\n♥: K Q 5\n♦: K 8 4\n♣: K Q 9 5\n17 HCP",
+        "bids": "1♦ P 2NT P\n3♣ P 3♦ P\n3♥ P ?",
+        "correctAnswer": "3NT 3NT: 17 with 3-4 diamonds."
+    },
+    {
+        "cards": "♠: A K 5 3\n♥: K 9 5\n♦: K 8 4\n♣: K Q 9 5\n18 HCP",
+        "bids": "1♦ P 2NT P\n3♣ P ?",
+        "correctAnswer": "3♥ 3♥: 18 with 3-4 diamonds."
+    },
+    {
+        "cards": "♠: A K 5 3\n♥: K J 5\n♦: K 8 4\n♣: K Q 9 5\n19 HCP",
+        "bids": "1♦ P 2NT P\n3♣ P ?",
+        "correctAnswer": "3♠ 3♠: 19 with 3-4 diamonds."
+    },
+    {
+        "cards": "♠: A K 5 3\n♥: K Q 5\n♦: K 8 4\n♣: K Q 9 5\n20 HCP",
+        "bids": "1♦ P 2NT P\n3♣ P ?",
+        "correctAnswer": "3NT 3NT: 20 with 3-4 diamonds."
+    },
+    {
+        "cards": "♠: A K Q 6\n♥: 9 6 4\n♦: 9 6 3\n♣: 9 6 3\n9 HCP",
+        "bids": "1♥ P ?",
+        "correctAnswer": "3♥ 3♥/♠ (openers suit): Has 3 cards of openers suit but prefers the 4-5 cards of other major suit."
+    },
+    {
+        "cards": "♠: J T 8 4 3\n♥: K Q 9 4 3\n♦: 9 3\n♣: 9\n6 HCP",
+        "bids": "1♥ P 3♥ P\n?",
+        "correctAnswer": "4♠ He prefers the 4-5 cards of other major suit by his 3h bid."
+    },
+    {
+        "cards": "♠: A 9 4\n♥: K Q J 9 3\n♦: K 9 4\n♣: Q 9\n15 HCP",
+        "bids": "1♥ P 2NT P\n?",
+        "correctAnswer": "3♦ 2NT: Have a void and are interested in slam. Opener needs to bid 3♣ if he is 12-14 and 3♦ if he is 15-16, and then the responder bids their void."
+    },
+    {
+        "cards": "♠: \n♥: K Q 9 4\n♦: K Q 9 4\n♣: \n10 HCP",
+        "bids": "1NT P ?",
+        "correctAnswer": "2♠ 2♠: This bid indicates a very strong hand with a void, providing the partner with valuable information about your hands strength and distribution."
+    },
+    {
+        "cards": "♠: K 9 4\n♥: K 9 4\n♦: K 9 4\n♣: K 9 6 4\n12 HCP",
+        "bids": "1NT P 2♠ P\n?",
+        "correctAnswer": "2NT: S♥OW♠ A ♥AN♦ WIT♥ 12 13 points."
+    },
+    {
+        "cards": "♠: K Q 4\n♥: K 9 4\n♦: K 9 4\n♣: K 9 6 4\n14 HCP",
+        "bids": "1NT P 2♠ P\n?",
+        "correctAnswer": "3♣: S♥OW♠ A ♥AN♦ WIT♥ 13 14 points."
+    },
+    {
+        "cards": "♠: A Q 5 3\n♥: K 5\n♦: K 9 6 4 3\n♣: K 4\n15 HCP",
+        "bids": "2♣ P 2NT P\n?",
+        "correctAnswer": "3♠ 2NT: Indicates a singleton or void in clubs, hoping the partner has a second long suit of at least 4 cards and can bid it at the 3 level. If the bid becomes competitive, the responder can then bid their longest suit, and the opener will know it is weak."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K 5 3\n♦: K 9 7 5 4\n♣: K 3\n12 HCP",
+        "bids": "2♣ P ?",
+        "correctAnswer": "3NT 3NT: Balanced, 13-14, or 12 with 5+ diamonds."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K 5 3\n♦: K 9 7 5\n♣: A K 3\n16 HCP",
+        "bids": "2♣ P ?",
+        "correctAnswer": "3♣ 3♣: 15-20 balanced with at least 3 clubs."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K 5 3\n♦: K 9 7 5\n♣: A K 3\n16 HCP",
+        "bids": "2♣ P 3♣ P\n3♦ P ?",
+        "correctAnswer": "3♥ 3♥: 15-16 balanced with at least 3 clubs."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K 5 3\n♦: K J 7 5\n♣: A K 3\n17 HCP",
+        "bids": "2♣ P 3♣ P\n3♦ P ?",
+        "correctAnswer": "3♠ 3♠: 17-18 balanced with at least 3 clubs."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K Q 3\n♦: K J 7 5\n♣: A K 3\n19 HCP",
+        "bids": "2♣ P 3♣ P\n3♦ P ?",
+        "correctAnswer": "3NT 3NT: 19-20 balanced with at least 3 clubs."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K Q 3 2\n♦: K 9 7 5\n♣: A 3\n15 HCP",
+        "bids": "2♣ P ?",
+        "correctAnswer": "3♦ 3♦: 15-16 balanced with exactly 2 clubs."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K Q 3 2\n♦: K 9 7 5\n♣: A J\n16 HCP",
+        "bids": "2♣ P 3♦ P\n3♥ P ?",
+        "correctAnswer": "3♠ 3♠: I have a Q or J in ♣, 15-16 balanced with exactly 2 clubs."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K Q 3 2\n♦: K 9 7 5\n♣: A 4\n15 HCP",
+        "bids": "2♣ P 3♦ P\n3♥ P ?",
+        "correctAnswer": "3NT 3NT: I do not have a Q or J in ♣, 15-16 balanced with exactly 2 clubs."
+    },
+    {
+        "cards": "♠: K 6 3\n♥: K Q 3 2\n♦: K Q 7 5\n♣: A 3\n17 HCP",
+        "bids": "2♣ P ?",
+        "correctAnswer": "3♥ 3♥: 17-18 balanced with exactly 2 clubs."
+    },
+    {
+        "cards": "♠: K Q 3\n♥: K Q 3 2\n♦: K Q 7 5\n♣: A 3\n19 HCP",
+        "bids": "2♣ P ?",
+        "correctAnswer": "3♠ 3♠: 19-20 balanced with exactly 2 clubs."
+    },
+    {
+        "cards": "♠: K 3\n♥: 3\n♦: 9 8 6 4 3\n♣: 9 8 6 4 3\n3 HCP",
+        "bids": "2NT P 4♦ P\n?",
+        "correctAnswer": "4♠ If you have the king: bid the suit of the king. 4♦: A question for king (ignoring ace)."
+    },
+    {
+        "cards": "♠: 9 3\n♥: 3\n♦: 9 8 6 4 3\n♣: 9 8 6 4 3\n0 HCP",
+        "bids": "2NT P 4♦ P\n?",
+        "correctAnswer": "4NT If you dont have the king respond with 4NT. 4♦: A question for king (ignoring ace)."
+    },
+    {
+        "cards": "♠: 9 3\n♥: 3\n♦: 9 8 6 4 3\n♣: 9 8 6 4 3\n0 HCP",
+        "bids": "2NT P 4NT P\n?",
+        "correctAnswer": "5♣ 5♣: I don't have a queen. 4NT: A question for queen."
+    },
+    {
+        "cards": "♠: Q 3\n♥: 3\n♦: 9 8 6 4 3\n♣: 9 8 6 4 3\n2 HCP",
+        "bids": "2NT P 4NT P\n?",
+        "correctAnswer": "5♦ 5♦: I do have a queen. 4NT: A question for queen."
+    },
+    {
+        "cards": "♠: \n♥: \n♦: A 9 6 4 3\n♣: K Q 9 7 5 3\n9 HCP",
+        "bids": "3♣ P 3♦ P\n?",
+        "correctAnswer": "3♠ 3♠: A 6-5 distribution in clubs and diamonds with 2 cards in spades."
+    },
+    {
+        "cards": "♠: \n♥: 5\n♦: A 9 6 4 3\n♣: K Q 9 7 5 3\n9 HCP",
+        "bids": "3♣ P 3♦ P\n?",
+        "correctAnswer": "3NT 3NT: Diamonds is the other suit in the 6-5 distribution."
+    },
+    {
+        "cards": "♠: \n♥: K Q 9 7 5 3\n♦: A 9 6 4 3\n♣: 7\n9 HCP",
+        "bids": "3♦ P 3♥ P\n?",
+        "correctAnswer": "3NT 3NT: Hearts is the other suit in the 6-5 distribution."
+    }
+]
